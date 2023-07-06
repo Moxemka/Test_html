@@ -1,0 +1,54 @@
+html{
+    font-family: "Consolas";
+}
+
+#table-head th {
+    cursor: pointer;
+  }
+  
+.wrapper{
+    max-width: 1200px;
+    margin: auto;
+}
+
+.table-sortable .th-sort-ascending::after {
+    content: "\25b4";
+}
+  
+  .table-sortable .th-sort-decending::after {
+    content: "\25be";
+}
+  
+  .table-sortable .th-sort-ascending::after,
+  .table-sortable .th-sort-decending::after {
+    margin-left: 5px;
+}
+  
+  .table-sortable .th-sort-ascending,
+  .table-sortable .th-sort-decending {
+
+    background: rgba(0, 0, 0, 0.1);
+    /* background: rgba(0, 0, 0, 0.1); */
+}
+
+
+
+
+.table {
+    border-collapse: collapse;
+}
+
+
+tbody td {
+    padding: 10px;
+}
+
+thead th{
+    padding: 10px;
+    background-color: #8d8d8d;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: #2d2d2d;
+    color: #ffffff;
+  }
